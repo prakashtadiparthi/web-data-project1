@@ -1,0 +1,15 @@
+{
+  "name": "cse5335kpt0074",
+  "version": "0.10.25",
+  "description": "ERROR: No README data found!",
+  "main": "server3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.14.0"
+  },
+  "devDependencies": {}
+}
