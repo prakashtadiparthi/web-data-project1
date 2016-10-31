@@ -14,7 +14,7 @@ $(document).ready(function(){
     $("button").click(function(){
         $.ajax({
               type: 'GET',
-              url: '/listUsers',
+              url: 'https://webdataproject1.herokuapp.com/listUsers',
               crossDomain: true,
               data: {},
               cache: false,
@@ -51,7 +51,7 @@ mapTypeId: google.maps.MapTypeId.ROADMAP
 var infoWindow = new google.maps.InfoWindow();
 var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
 
-  $.getJSON('/listUsers', function(data) { 
+  $.getJSON('https://webdataproject1.herokuapp.com/listUsers', function(data) { 
             $.each( data.points, function(i, value) {
 
                 var myLatlng = new google.maps.LatLng(value.lat, value.lon);
