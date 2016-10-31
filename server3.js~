@@ -17,7 +17,8 @@ app.get('/listUsers', function (req, res) {
 })
 
 var server = app.listen(8080, function () {
-   var host = server.address().address
+   //var host = server.address().address
+	var host = "https://webdataproject1.herokuapp.com"
    var port = server.address().port
 
    console.log("Example app listening at http://%s:%s", host, port)
